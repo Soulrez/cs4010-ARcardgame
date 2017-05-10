@@ -1,0 +1,85 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon R7 200 Series (ID=0x6610)
+    Vendor:   ATI
+    VRAM:     1006 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.274 seconds
+desktop: 1280x1024 60Hz; virtual: 2560x1024 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Mokslas\PR\ARToolkit1\ARToolkit1_Data\Managed\System.dll (this message is harmless)
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+DllNotFoundException: D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+  at (wrapper managed-to-native) ARNativePlugin:arwInitialiseARWithOptions (int,int)
+  at PluginFunctions.arwInitialiseAR (Int32 pattSize, Int32 pattCountMax) [0x00000] in <filename unknown>:0 
+  at ARController.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+DllNotFoundException: D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+  at (wrapper managed-to-native) ARNativePlugin:arwRegisterLogCallback (PluginFunctions/LogCallback)
+  at PluginFunctions.arwRegisterLogCallback (.LogCallback lcb) [0x00000] in <filename unknown>:0 
+  at ARController.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+AROrigin: Found 1 markers eligible to become base marker.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: d98 -> priority: 1 
+ARController: Shutting down ARToolKit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/.\libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+Fallback handler could not load library D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Mono/libD:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+DllNotFoundException: D:/Mokslas/PR/ARToolkit1/ARToolkit1_Data/Plugins/ARWrapper.dll
+  at (wrapper managed-to-native) ARNativePlugin:arwShutdownAR ()
+  at PluginFunctions.arwShutdownAR () [0x00000] in <filename unknown>:0 
+  at ARController.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
